@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: #3F3F3F;
+    color: white;
+}
+
+.book{
+    display: flex;
+    gap: 20px;
+    /* white-space: nowrap; */
+}
+
+ul li{
+    list-style-type:none;
+}
+.boxContainer{
+    display: flex;
+    overflow-x: scroll;
+    margin: auto;
+}
+.boxContainer::-webkit-scrollbar {
+    display: none;
+  }
+p{
+    /* background-color: bisque; */
+    width: 200px;
+    height: 100px;
+}
+
+.bookContainer2{
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.book-2 img{
+    width: 200px;
+}
+
+.navbar{
+    height: 70px;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.input-search{
+width: 280px;
+padding: 8px;
+border: none;
+/* margin: 10px; */
+outline: none;
+}
+.search-btn{
+ padding: 8px 20px;  
+ /* border: 1px solid rgb(145, 145, 145);  */
+ /* outline: none; */
+ border: none;
+ cursor: pointer;
+}
+
+.section1 h2, .section2 h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.section2{
+    margin: 20px;
+}
